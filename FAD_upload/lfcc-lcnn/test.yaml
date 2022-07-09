@@ -1,0 +1,12 @@
+name: lfcc_lcnn
+
+testlabelfile: /data4/mahaoxin/data/datasetVocoder/test/test_unseen_lfcc.txt
+
+batch_size: 256
+max_frame_length: 320
+with_delta: True
+with_energy: False
+num_workers: 4
+
+gpu_idx: [1] #[0, 1]
+save_dir: ./exp/

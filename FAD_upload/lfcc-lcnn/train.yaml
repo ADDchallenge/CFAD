@@ -1,0 +1,24 @@
+name: lfcc_lcnn
+
+trainlabelfile: /data4/mahaoxin/data/datasetVocoder/train/train_lfcc.txt
+devlabelfile: /data4/mahaoxin/data/datasetVocoder/dev/dev_lfcc.txt
+testlabelfile: /data4/mahaoxin/data/datasetVocoder/test/test_seen_lfcc.txt
+
+batch_size: 128
+max_frame_length: 320
+with_delta: True
+with_energy: False
+num_workers: 4
+
+gpu_idx: [3] #[0, 1]
+nb_proc_db: 4
+save_dir: ./exp/
+optimizer: adam #sgd
+lr: 0.0003         
+opt_mom: 0.9
+wd: 1.0e-5
+epoch: 80 
+save_best_only: False
+#flags
+nesterov: 0 #for sgd optim
+
