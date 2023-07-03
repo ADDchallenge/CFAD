@@ -1,6 +1,6 @@
 # README
 
-# FAD Baseline Systems
+# CFAD Baseline Systems
 
 Baseline systems are grouped by task:
 
@@ -28,4 +28,4 @@ Reference code is provided for the following systems:
 
 ## Dataset Download
 
-The FAD dataset is publicly available and can be downloaded from Zenodo [https://zenodo.org/record/6635521\\#.Ysjq4nZBw2x](https://zenodo.org/record/6635521%5C%5C#.Ysjq4nZBw2x)
+The CFAD dataset is publicly available and can be downloaded from Zenodo [https://zenodo.org/record/6635521\\#.Ysjq4nZBw2x](https://zenodo.org/record/6635521%5C%5C#.Ysjq4nZBw2x)
